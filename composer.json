@@ -1,0 +1,58 @@
+{
+    "name": "bhhaskin/laravel-workspaces",
+    "description": "Workspace and team management for Laravel applications with invitations and model mapping.",
+    "version": "0.1.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bryan Haskin",
+            "email": "bhhaskin@bitsofsimplicity.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/database": "^10.0|^11.0",
+        "illuminate/support": "^10.0|^11.0",
+        "bhhaskin/laravel-roles-permissions": "^0.1.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0",
+        "pestphp/pest": "^2.0",
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bhhaskin\\\\LaravelWorkspaces\\\\": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bhhaskin\\\\LaravelWorkspaces\\\\Tests\\\\": "tests/",
+            "Workbench\\\\App\\\\": "workbench/app/"
+        },
+        "classmap": [
+            "tests/"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bhhaskin\\\\LaravelWorkspaces\\\\LaravelWorkspacesServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "pest"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
