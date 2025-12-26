@@ -14,13 +14,13 @@
         "php": "^8.1",
         "illuminate/database": "^10.0|^11.0|^12.0",
         "illuminate/support": "^10.0|^11.0|^12.0",
-        "matiaspiuma/laravel-roles-permissions": "^0.1.0"
+        "matiaspiuma/laravel-roles-permissions": "dev-main"
     },
     "require-dev": {
         "orchestra/testbench": "^8.0",
         "pestphp/pest": "^2.0",
         "phpunit/phpunit": "^10.5",
-        "matiaspiuma/laravel-billing": "^0.1.0"
+        "matiaspiuma/laravel-billing": "dev-main"
     },
     "autoload": {
         "psr-4": {
