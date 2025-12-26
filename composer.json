@@ -1,5 +1,5 @@
 {
-    "name": "bhhaskin/laravel-workspaces",
+    "name": "matiaspiuma/laravel-workspaces",
     "description": "Workspace and team management for Laravel applications with invitations and model mapping.",
     "version": "0.4.0",
     "type": "library",
@@ -12,8 +12,8 @@
     ],
     "require": {
         "php": "^8.1",
-        "illuminate/database": "^10.0|^11.0",
-        "illuminate/support": "^10.0|^11.0",
+        "illuminate/database": "^10.0|^11.0|^12.0",
+        "illuminate/support": "^10.0|^11.0|^12.0",
         "bhhaskin/laravel-roles-permissions": "^0.1.0"
     },
     "require-dev": {
